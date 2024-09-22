@@ -15,7 +15,7 @@ function App() {
 
   return (
     <>
-    <div>
+    <div className='bg-gray-800 text-white'>
     <Navbar/>
     <Home/>
     <About/>

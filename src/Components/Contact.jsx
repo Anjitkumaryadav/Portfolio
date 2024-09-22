@@ -30,7 +30,7 @@ function Contact() {
                 //method="POST" 
                 onSubmit={handleSubmit(onSubmit)}
                 className='bg-slate-200 rounded-md w-96 px-9 py-6'>
-                    <h1 className='font-semibold'>Send Your Message</h1>
+                    <h1 className='font-semibold text-gray-900'>Send Your Message</h1>
                     <div className='flex flex-col mb-4'>
                         <label className='block text-gray-700 text-sm' htmlFor="">Full Name</label>
                         <input {...register('name', { required: true })} name='name' id='name' className='leading-tight border rounded text-sm focus:out py-2 px-3 my-1' type="text" placeholder='Enter your Full Name' />
