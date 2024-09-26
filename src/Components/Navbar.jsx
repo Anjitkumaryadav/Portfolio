@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import pic from "../../public/photo.avif";
+import pic from "../../public/images.jfif";
 import { FiMenu } from "react-icons/fi";
 import { IoMdClose } from "react-icons/io";
 import { Link } from "react-scroll";
@@ -33,7 +33,7 @@ function Navbar() {
     <div>
       <div className="max-w-screen-2xl container mx-auto px- md:px-20 h-16 shadow-md fixed top-0 left-0 right-0 bg-gray-700">
         <div className="flex justify-between items-center h-16">
-          <div className="flex space-x-2">
+           <div className="flex space-x-2">
             <img src={pic} className="h-12 w-12 rounded-full" alt="logo" />
             <h1 className="font-semibold text-xl cursor-pointer">
               Anjit

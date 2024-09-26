@@ -33,7 +33,7 @@ function Contact() {
                     <h1 className='font-semibold text-gray-900'>Send Your Message</h1>
                     <div className='flex flex-col mb-4'>
                         <label className='block text-gray-700 text-sm' htmlFor="">Full Name</label>
-                        <input {...register('name', { required: true })} name='name' id='name' className='leading-tight border rounded text-sm focus:out py-2 px-3 my-1' type="text" placeholder='Enter your Full Name' />
+                        <input {...register('name', { required: true })} name='name' id='name' className='text-black leading-tight border rounded text-sm focus:out py-2 px-3 my-1' type="text" placeholder='Enter your Full Name' />
                         {errors.name && <span className='text-red-700 text-sm' >*This field is required</span>}
 
                     </div>
@@ -42,7 +42,7 @@ function Contact() {
                         <label className='block text-gray-700 text-sm' htmlFor="">Email address</label>
                         <input name='Email' id='email'
                         {...register('email', { required: true })}
-                        className='leading-tight border rounded text-sm focus:out py-2 px-3 my-1' type="text" placeholder='Enter your email address' />
+                        className=' text-black leading-tight border rounded text-sm focus:out py-2 px-3 my-1' type="text" placeholder='Enter your email address' />
                         {errors.email && <span className='text-red-700 text-sm'>*This field is required</span>}
 
                     </div>
@@ -51,7 +51,7 @@ function Contact() {
                         <label className='block text-gray-700 text-sm' htmlFor="">Text area</label>
                         <input name='message' id='message'
                         {...register('message', { required: true })}
-                        className=' border rounded text-sm focus:out py-2 px-2 h-[100px] text-wrap my-1' type="text" placeholder='Write your message' />
+                        className='text-black border rounded text-sm focus:out py-2 px-2 h-[100px] text-wrap my-1' type="text" placeholder='Write your message' />
                         {errors.message && <span className='text-red-700 text-sm'>*This field is required</span>}
 
                     </div>

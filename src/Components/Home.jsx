@@ -17,13 +17,13 @@ function Home() {
         <div name="Home" className='max-w-screen-2xl container mx-auto px-4 md:px-20 my-20'>
             <div className='flex flex-col md:flex-row'>
                 <div className='md:w-1/2 mt-12 md:mt-24 space-y-2 order-2 md:order-1'>
-                    <span className=''>Wecome In My Feed</span>
+                    
                     <div className='flex space-x-1 text-2xl md:text-4xl'>
                         <h1>Hello,I'm a </h1>
                         {/*<span className='text-red-700 font-bold'> Developer</span>*/}
                         <ReactTyped className='text-red-700 font-bold'
 
-                            strings={["Developer","Programmer","Coder"]}
+                            strings={["Developer","Coder"]}
                             typeSpeed={40}
                             backSpeed={40}
                             loop={true}
