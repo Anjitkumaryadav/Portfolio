@@ -5,7 +5,10 @@ import javascript from "../../public/javascript.png";
 import mongodb from "../../public/mongodb.jpg";
 import reactjs from "../../public/reactjs.png";
 import express from "../../public/express.png";
-import nodejs from"../../public/node.png"
+import nodejs from"../../public/node.png";
+import java from "../../public/java.png";
+import bootstrap from "../../public/bootstrap.png";
+import cplusplus from "../../public/c++.png"
 
 
 function Experience() {
@@ -44,7 +47,22 @@ function Experience() {
             id:7,
             logo:javascript,
             name:"Javascript",
-        }
+        },
+        {
+            id:8,
+            logo:java,
+            name:"Java",
+        },
+        {
+            id:9,
+            logo:bootstrap,
+            name:"Bootstrap",
+        },
+        {
+            id:10,
+            logo:cplusplus,
+            name:"C++",
+        },
     ]
 
   return (
