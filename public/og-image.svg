@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#08090A"/>
+  <!-- hairline grid -->
+  <g stroke="rgba(255,255,255,0.06)" stroke-width="1">
+    <line x1="80" y1="0" x2="80" y2="630"/>
+    <line x1="1120" y1="0" x2="1120" y2="630"/>
+    <line x1="0" y1="80" x2="1200" y2="80"/>
+    <line x1="0" y1="550" x2="1200" y2="550"/>
+  </g>
+  <!-- meta top -->
+  <text x="80" y="55" fill="#8A9099" font-family="monospace" font-size="18" letter-spacing="4">ANJIT KUMAR YADAV — SOFTWARE ENGINEER</text>
+  <!-- headline -->
+  <text x="78" y="250" fill="#F3F4F5" font-family="Arial, sans-serif" font-weight="700" font-size="120" letter-spacing="-4">I BUILD SOFTWARE</text>
+  <text x="78" y="360" fill="#F3F4F5" font-family="Arial, sans-serif" font-weight="700" font-size="120" letter-spacing="-4">THAT SOLVES</text>
+  <text x="78" y="470" fill="#F3F4F5" font-family="Arial, sans-serif" font-weight="700" font-size="120" letter-spacing="-4"><tspan fill="#D2A15E" font-style="italic" font-family="Georgia, serif">real</tspan> PROBLEMS.</text>
+  <!-- meta bottom -->
+  <text x="80" y="595" fill="#8A9099" font-family="monospace" font-size="18" letter-spacing="3">BACKEND · FULL-STACK · AUTOMATION</text>
+  <text x="1120" y="595" text-anchor="end" fill="#D2A15E" font-family="monospace" font-size="18" letter-spacing="3">HRMS · BUKMUK · TEST MIND</text>
+</svg>

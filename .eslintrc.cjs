@@ -13,6 +13,10 @@ module.exports = {
   plugins: ['react-refresh'],
   rules: {
     'react/jsx-no-target-blank': 'off',
+    // This project intentionally doesn't use PropTypes.
+    'react/prop-types': 'off',
+    // Curly apostrophes in copy are fine in JSX text here.
+    'react/no-unescaped-entities': 'off',
     'react-refresh/only-export-components': [
       'warn',
       { allowConstantExport: true },
